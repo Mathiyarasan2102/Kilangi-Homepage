@@ -1,0 +1,35 @@
+:root {
+    /* Colors */
+    --color-bg: #F9F9F7;
+    --color-bg-light: #F2F2F0; /* Slightly darker than bg for contrast sections */
+    --color-text-primary: #2A2A2A;
+    --color-text-secondary: #555555;
+    --color-gold: #C5A059;
+    --color-gold-hover: #B08D4B;
+    --color-green: #4A5D45; /* Muted green */
+    --color-green-hover: #3E4E3A;
+    --color-white: #FFFFFF;
+    --color-border: #E5E5E5;
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Outfit', sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 2rem;     /* 32px */
+    --spacing-lg: 4rem;     /* 64px */
+    --spacing-xl: 6rem;     /* 96px */
+
+    /* Layout */
+    --container-width: 1280px;
+    --header-height: 80px;
+    --announcement-height: 40px;
+
+    /* Shadows & Transitions */
+    --shadow-sm: 0 4px 6px rgba(0,0,0,0.05);
+    --shadow-md: 0 10px 20px rgba(0,0,0,0.08);
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.4s ease;
+}

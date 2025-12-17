@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kilangi HomePage</title>
+    <meta name="description"
+        content="Kilangi - Premium gold & silver jewellery. Each piece is thoughtfully designed to celebrate your individuality blending modern elegance with lasting craftsmanship.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons (using Phosphor Icons for lightweight elegant icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- 1. Top Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container announcement-bar__content">
+            <span class="announcement-bar__text">Step into Sparkle – Pure Gold & Silver Await</span>
+            <div class="announcement-bar__socials">
+                <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Header (Main Row) -->
+    <header class="header" id="main-header">
+        <div class="container header__main-row">
+
+            <!-- Desktop Search (Left) -->
+            <div class="search-bar search-bar--desktop">
+                <input type="text" placeholder="Search for Earrings.." class="search-bar__input">
+                <i class="ph ph-magnifying-glass"></i>
+            </div>
+
+            <!-- Logo (Center) -->
+            <a href="#" class="header__logo">
+                <div class="logo-wrapper">
+                    <!-- Placeholder for the graphic icon -->
+                    <i class="ph ph-plant" style="font-size: 2rem; margin-bottom: -5px;"></i>
+                    <span class="logo-text">KILANGI</span>
+                </div>
+            </a>
+
+            <!-- Actions (Right) -->
+            <div class="header__actions">
+                <a href="#" class="header__icon-link"><i class="ph ph-heart"></i></a>
+                <a href="#" class="header__icon-link"><i class="ph ph-user"></i></a>
+                <a href="#" class="header__icon-link"><i class="ph ph-shopping-bag"></i></a>
+            </div>
+        </div>
+
+        <!-- Desktop Nav Row (Separate Background) -->
+        <div class="header__nav-row">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#" class="header__link">All Jewellery</a></li>
+                        <li><a href="#" class="header__link">Gold</a></li>
+                        <li><a href="#" class="header__link">Silver</a></li>
+                        <li><a href="#" class="header__link">Gifting</a></li>
+                        <li><a href="#" class="header__link">About Us</a></li>
+                        <li><a href="#" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- 3. Mobile Specific Header Elements (Search & Quick Cats) -->
+    <div class="mobile-header-addons">
+        <!-- Search Band -->
+        <div class="mobile-search-band">
+            <div class="container">
+                <div class="mobile-search-input-wrapper">
+                    <input type="text" placeholder="Search for Earrings.." class="mobile-search-input">
+                    <i class="ph ph-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scrollable Category Chips -->
+        <div class="mobile-cat-scroll">
+            <div class="container mobile-cat-scroll__track">
+                <a href="#" class="cat-chip">
+                    <div class="cat-chip__img"><img src="assets/images/product-bracelet.png" alt="Bestsellers"></div>
+                    <span class="cat-chip__text">Bestsellers</span>
+                </a>
+                <a href="#" class="cat-chip">
+                    <div class="cat-chip__img"><img src="assets/images/product-bracelet.png" alt="Earrings"></div>
+                    <span class="cat-chip__text">Earrings</span>
+                </a>
+                <a href="#" class="cat-chip">
+                    <div class="cat-chip__img"><img src="assets/images/product-bracelet.png" alt="Rings"></div>
+                    <span class="cat-chip__text">Rings</span>
+                </a>
+                <a href="#" class="cat-chip">
+                    <div class="cat-chip__img"><img src="assets/images/product-bracelet.png" alt="Necklace"></div>
+                    <span class="cat-chip__text">Necklace</span>
+                </a>
+                <a href="#" class="cat-chip">
+                    <div class="cat-chip__img"><img src="assets/images/product-bracelet.png" alt="Bangles"></div>
+                    <span class="cat-chip__text">Bangles</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Hero Section -->
+    <!-- 3. Hero Section (Split Layout) -->
+    <section class="hero-split">
+        <!-- Left Side: Content & Dark Image Background -->
+        <div class="hero-split__left">
+            <div class="hero-split__content">
+                <h1 class="hero-split__title">Because You Deserve to<br>Feel <em>Timeless.</em></h1>
+                <p class="hero-split__text">Each piece is thoughtfully designed to celebrate your individuality –
+                    blending modern elegance with lasting craftsmanship.</p>
+                <a href="#" class="btn btn--white hero-split__btn">
+                    Explore the Elegance
+                    <i class="ph ph-arrow-right" style="margin-left: 8px;"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side: Light Image Container -->
+        <div class="hero-split__right">
+            <!-- Image can be background or img tag. Bg cover is safer for split. -->
+        </div>
+    </section>
+
+    <!-- 4. Feature Badges Row -->
+    <section class="features">
+        <div class="container features__container">
+            <div class="features__grid">
+                <div class="feature-item">
+                    <span class="feature-item__text">Anti - Fade Polish</span>
+                </div>
+                <div class="feature-separator"><i class="ph ph-star-four"></i></div>
+
+                <div class="feature-item">
+                    <span class="feature-item__text">Timeless Design</span>
+                </div>
+                <div class="feature-separator"><i class="ph ph-star-four"></i></div>
+
+                <div class="feature-item">
+                    <span class="feature-item__text">Lightweight Comfort</span>
+                </div>
+                <div class="feature-separator"><i class="ph ph-star-four"></i></div>
+
+                <div class="feature-item">
+                    <span class="feature-item__text">Modern Minimal</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Bestseller Section -->
+    <section class="bestsellers section">
+        <div class="container">
+            <h2 class="section-title">Explore Our <em>Timeless Bestseller</em></h2>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="rings">Rings</button>
+                <button class="tab-btn" data-tab="earrings">Earrings</button>
+                <button class="tab-btn" data-tab="pendants">Pendants</button>
+                <button class="tab-btn" data-tab="bracelets">Bracelets</button>
+                <button class="tab-btn" data-tab="bangles">Bangles</button>
+            </div>
+
+            <div class="product-grid" id="bestseller-grid">
+                <!-- Products injected via JS -->
+            </div>
+
+            <div class="section-actions">
+                <a href="#" class="btn btn--primary"
+                    style="background-color: #2F4F4F; border-radius: 4px; padding: 12px 32px;">
+                    Shop Bestsellers
+                    <i class="ph ph-arrow-right" style="margin-left:8px;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Bestseller Section -->
+    <section class="bestsellers section">
+        <div class="container">
+            <h2 class="section-title">Explore Our <em>Timeless Bestseller</em></h2>
+
+            <!-- Category Tabs -->
+            <div class="bestseller-tabs">
+                <button class="tab-btn active">Rings</button>
+                <button class="tab-btn">Earrings</button>
+                <button class="tab-btn">Pendants</button>
+                <button class="tab-btn">Bracelets</button>
+                <button class="tab-btn">Bangles</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="bestseller-grid">
+                <!-- Product 1 -->
+                <div class="product-card product-card--large">
+                    <div class="product-card__image-wrapper">
+                        <img src="assets/images/product-bracelet.png" alt="Twisted Petal Gold Bracelet">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Twisted Petal Gold Bracelet</h3>
+                        <div class="product-card__price-row">
+                            <span class="price-current">₹79904</span>
+                            <span class="price-old">₹99904</span>
+                        </div>
+                        <div class="product-card__swatches">
+                            <span class="swatch" style="background-color: #E6C86E;"></span> <!-- Gold -->
+                            <span class="swatch" style="background-color: #C0C0C0;"></span> <!-- Silver -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card product-card--large">
+                    <div class="product-card__image-wrapper">
+                        <img src="assets/images/product-bracelet.png" alt="Twisted Petal Gold Bracelet">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Twisted Petal Gold Bracelet</h3>
+                        <div class="product-card__price-row">
+                            <span class="price-current">₹79904</span>
+                            <span class="price-old">₹99904</span>
+                        </div>
+                        <div class="product-card__swatches">
+                            <span class="swatch" style="background-color: #E6C86E;"></span>
+                            <span class="swatch" style="background-color: #C0C0C0;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card product-card--large">
+                    <div class="product-card__image-wrapper">
+                        <img src="assets/images/product-bracelet.png" alt="Twisted Petal Gold Bracelet">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Twisted Petal Gold Bracelet</h3>
+                        <div class="product-card__price-row">
+                            <span class="price-current">₹79904</span>
+                            <span class="price-old">₹99904</span>
+                        </div>
+                        <div class="product-card__swatches">
+                            <span class="swatch" style="background-color: #E6C86E;"></span>
+                            <span class="swatch" style="background-color: #C0C0C0;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shop Button -->
+            <div class="bestseller-footer">
+                <a href="#" class="btn btn--primary shop-bestseller-btn">Shop Bestsellers <i
+                        class="ph ph-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Explore Our Collection -->
+    <section class="collection section">
+        <div class="container">
+            <h2 class="section-title">Explore Our <em>Collection</em></h2>
+            <div class="collection-grid">
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Rings" class="collection-card__image">
+                    <span class="collection-card__label">Rings</span>
+                </a>
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Earrings" class="collection-card__image">
+                    <span class="collection-card__label">Earrings</span>
+                </a>
+                <!-- Pendants -->
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Pendants" class="collection-card__image">
+                    <span class="collection-card__label">Pendants</span>
+                </a>
+                <!-- Bracelets -->
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Bracelets" class="collection-card__image">
+                    <span class="collection-card__label">Bracelets</span>
+                </a>
+                <!-- Necklace -->
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Necklace" class="collection-card__image">
+                    <span class="collection-card__label">Necklace</span>
+                </a>
+                <!-- Bangles -->
+                <a href="#" class="collection-card">
+                    <img src="assets/images/product-bracelet.png" alt="Bangles" class="collection-card__image">
+                    <span class="collection-card__label">Bangles</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Recently Viewed -->
+    <section class="recently-viewed section--bg-light">
+        <div class="container">
+            <h2 class="section-title">Recently Viewed</h2>
+            <div class="horizontal-scroll" id="recently-viewed-list">
+                <!-- Products injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Personalised Gift Section -->
+    <section class="personalised-gift section">
+        <div class="container">
+            <!-- Title (Shared) -->
+            <div class="personalised-gift__header">
+                <h2 class="personalised-gift__title">Make It <em>Extra Special</em> with Personalised<br>Gift Notes</h2>
+            </div>
+
+            <div class="personalised-gift__body">
+                <!-- Desktop Feature Image (Hidden on Mobile) -->
+                <div class="personalised-gift__feature-image">
+                    <img src="assets/images/hero-jewellery.png" alt="Personalised Gifting Model">
+                </div>
+
+                <!-- Cards Container (Mobile: Scroll, Desktop: Grid) -->
+                <div class="personalised-gift__cards-container">
+                    <!-- Card 1 -->
+                    <div class="gift-scroll-card">
+                        <img src="assets/images/hero-jewellery.png" alt="Gift Under 10000"
+                            class="gift-scroll-card__image">
+                        <a href="#" class="gift-btn">Shop Under ₹10000</a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="gift-scroll-card">
+                        <img src="assets/images/product-bracelet.png" alt="Gift Under 20000"
+                            class="gift-scroll-card__image">
+                        <a href="#" class="gift-btn">Shop Under ₹20000</a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="gift-scroll-card">
+                        <img src="assets/images/hero-jewellery.png" alt="Gift Under 30000"
+                            class="gift-scroll-card__image">
+                        <a href="#" class="gift-btn">Shop Under ₹30000</a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="gift-scroll-card">
+                        <img src="assets/images/product-bracelet.png" alt="E-Gift Cards"
+                            class="gift-scroll-card__image">
+                        <a href="#" class="gift-btn">E-Gift Cards</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Seasonal Banner -->
+    <section class="seasonal-banner">
+        <div class="container seasonal-banner__grid">
+            <div class="seasonal-card seasonal-card--primary">
+                <h3 class="seasonal-card__title">Winter <em>Love</em> Has<br>Arrived..</h3>
+                <a href="#" class="btn btn--primary seasonal-btn">
+                    Explore New Arrivals
+                    <i class="ph ph-arrow-right" style="margin-left: 8px;"></i>
+                </a>
+            </div>
+            <div class="seasonal-card seasonal-card--secondary">
+                <h3 class="seasonal-card__title">Introducing <em>Lab Grown</em><br>Silver and Gold</h3>
+                <a href="#" class="btn btn--white seasonal-btn-secondary">
+                    Shop Gold and Silver
+                    <i class="ph ph-arrow-right" style="margin-left: 8px;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 9. Explore Our Collection (Re-Positioned) -->
+    <section class="collection section" id="collection-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">Explore Our <em>Collection</em>
+            </h2>
+            <div class="collection-scroll-grid">
+                <!-- 1. Rings -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/hero-jewellery.png" alt="Rings">
+                    </div>
+                    <span class="collection-item__label">Rings</span>
+                </a>
+                <!-- 2. Earrings -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/product-bracelet.png" alt="Earrings">
+                    </div>
+                    <span class="collection-item__label">Earrings</span>
+                </a>
+                <!-- 3. Pendants -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/hero-jewellery.png" alt="Pendants">
+                    </div>
+                    <span class="collection-item__label">Pendants</span>
+                </a>
+                <!-- 4. Bracelets -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/product-bracelet.png" alt="Bracelets">
+                    </div>
+                    <span class="collection-item__label">Bracelets</span>
+                </a>
+                <!-- 5. Necklace -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/hero-jewellery.png" alt="Necklace">
+                    </div>
+                    <span class="collection-item__label">Necklace</span>
+                </a>
+                <!-- 6. Bangles -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/product-bracelet.png" alt="Bangles">
+                    </div>
+                    <span class="collection-item__label">Bangles</span>
+                </a>
+                <!-- 7. Accessories -->
+                <a href="#" class="collection-item">
+                    <div class="collection-item__image">
+                        <img src="assets/images/hero-jewellery.png" alt="Accessories">
+                    </div>
+                    <span class="collection-item__label">Accessories</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Gifting Section -->
+    <section class="gifting section--bg-light">
+        <div class="container">
+            <h2 class="section-title">Gifts That <em>Celebrate</em> Every Moment</h2>
+            <p class="section-subtitle">Varius velit platea quis pellentesque mi et imperdiet. dolor sit amet
+                consectetur.</p>
+
+            <div class="gifting-grid">
+                <!-- Card 1 -->
+                <div class="gift-card">
+                    <div class="gift-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Birthday" class="gift-card__image">
+                    </div>
+                    <div class="gift-card__content">
+                        <h3 class="gift-card__title">BIRTHDAY</h3>
+                        <p class="gift-card__text">Celebrate their special day with a timeless piece that shines as
+                            bright as they do.</p>
+                        <a href="#" class="btn btn--primary gift-card__btn">Shop Birthday Gifts <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="gift-card">
+                    <div class="gift-card__image-wrapper">
+                        <img src="assets/images/product-bracelet.png" alt="Anniversary" class="gift-card__image">
+                    </div>
+                    <div class="gift-card__content">
+                        <h3 class="gift-card__title">ANNIVERSARY</h3>
+                        <p class="gift-card__text">Mark your love story with jewellery that symbolizes everlasting
+                            connection and devotion.</p>
+                        <a href="#" class="btn btn--primary gift-card__btn">Shop Anniversary Gifts <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="gift-card">
+                    <div class="gift-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Engagement" class="gift-card__image">
+                    </div>
+                    <div class="gift-card__content">
+                        <h3 class="gift-card__title">ENGAGEMENT</h3>
+                        <p class="gift-card__text">Begin forever with a piece that captures the promise of your
+                            beautiful journey ahead.</p>
+                        <a href="#" class="btn btn--primary gift-card__btn">Shop Engagement Gifts <i
+                                class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Button -->
+            <div class="gifting-footer">
+                <a href="#" class="btn btn--primary shop-bestseller-btn">Explore More Collection <i
+                        class="ph ph-arrow-right"></i></a>
+            </div>
+
+            <!-- Mobile Only Gallery Section -->
+            <div class="mobile-gallery">
+                <p class="mobile-gallery__title">Have this item? Show us how you wear it.</p>
+                <p class="mobile-gallery__subtitle">Tag <strong>@kilangi</strong> and you could be featured right here
+                </p>
+
+                <div class="mobile-gallery__actions">
+                    <a href="#" class="btn btn--primary mobile-gallery__btn">Add Your Photo</a>
+                    <a href="#" class="btn btn--outline mobile-gallery__btn">View Our Gallery</a>
+                </div>
+
+                <div class="mobile-gallery__grid">
+                    <div class="mobile-gallery__item"></div>
+                    <div class="mobile-gallery__item"></div>
+                    <div class="mobile-gallery__item"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Every Layer (Ethos) Section - Split Layout -->
+    <section class="every-layer split-section">
+        <div class="split-section__container">
+            <!-- Left Image -->
+            <div class="split-section__image-wrapper">
+                <img src="assets/images/hero-jewellery.png" alt="Every Shape Every Sparkle"
+                    class="split-section__image">
+            </div>
+            <!-- Right Content -->
+            <div class="split-section__content">
+                <h5 class="split-section__subtitle">OUR ETHOS</h5>
+                <h2 class="split-section__title">Every <em>Shape.</em><br>Every <em>Sparkle.</em></h2>
+                <p class="split-section__text">Every piece we create is a blend of artistry and awareness handcrafted
+                    with precision, guided by purpose.</p>
+                <p class="split-section__text">From ethically sourced materials to sustainable processes, we believe
+                    true beauty shines brightest when it’s made responsibly.</p>
+                <a href="#" class="btn split-section__btn">Know More <i class="ph ph-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Not Just A Trend (Future) -->
+    <section class="future-section">
+        <div class="container">
+            <div class="future-container">
+                <!-- Image Wrapper -->
+                <div class="future-image-wrapper">
+                    <img src="assets/images/hero-jewellery.png" alt="Lab Grown Diamonds" class="future-image">
+                </div>
+
+                <!-- Content Wrapper -->
+                <div class="future-content">
+                    <h2 class="future-title">Not Just A Trend. It’s<br>The <em>Future.</em></h2>
+                    <p class="future-text">Our lab-grown gold and silver jewellery is crafted with the same brilliance
+                        and purity as mined metals without the compromise.</p>
+
+                    <div class="future-grid">
+                        <div class="future-item">
+                            <i class="ph-fill ph-seal-check future-icon"></i>
+                            <span class="future-label">925 Sterling Silver</span>
+                        </div>
+                        <div class="future-item">
+                            <i class="ph-fill ph-diamond future-icon"></i>
+                            <span class="future-label">Certified Diamonds</span>
+                        </div>
+                        <div class="future-item">
+                            <i class="ph-fill ph-globe future-icon"></i>
+                            <span class="future-label">Ethical Sourcing</span>
+                        </div>
+                        <div class="future-item">
+                            <i class="ph-fill ph-package future-icon"></i>
+                            <span class="future-label">Free 15 Days<br>Return & Exchange</span>
+                        </div>
+                        <div class="future-item">
+                            <i class="ph-fill ph-pencil future-icon"></i>
+                            <span class="future-label">Customisable<br>Designs</span>
+                        </div>
+                        <div class="future-item">
+                            <i class="ph-fill ph-triangle future-icon"></i>
+                            <span class="future-label">BIS Hallmark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Customer Reviews -->
+    <section class="reviews section--bg-light">
+        <div class="container">
+            <h2 class="section-title">Voices of Our <em>Happy Customers</em></h2>
+            <p class="section-subtitle">Every piece we create carries a story but nothing shines brighter than the words
+                of those who wear them.</p>
+
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Review Image" class="review-card__image">
+                    </div>
+                    <div class="review-card__stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <h4 class="review-card__title">"So pretty!"</h4>
+                    <p class="review-card__text">I recently ordered the ‘Golden Radiance Hoops’ from Kilangi, and I’m
+                        absolutely in love! The craftsmanship is stunning, and the shine is just perfect.</p>
+                    <p class="review-card__author-name">~ Harshad Mehta</p>
+                </div>
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Review Image" class="review-card__image">
+                    </div>
+                    <div class="review-card__stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <h4 class="review-card__title">"So pretty!"</h4>
+                    <p class="review-card__text">I recently ordered the ‘Golden Radiance Hoops’ from Kilangi, and I’m
+                        absolutely in love! The craftsmanship is stunning, and the shine is just perfect.</p>
+                    <p class="review-card__author-name">~ Harshad Mehta</p>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Review Image" class="review-card__image">
+                    </div>
+                    <div class="review-card__stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <h4 class="review-card__title">"So pretty!"</h4>
+                    <p class="review-card__text">I recently ordered the ‘Golden Radiance Hoops’ from Kilangi, and I’m
+                        absolutely in love! The craftsmanship is stunning, and the shine is just perfect.</p>
+                    <p class="review-card__author-name">~ Harshad Mehta</p>
+                </div>
+                <!-- Review 4 -->
+                <div class="review-card">
+                    <div class="review-card__image-wrapper">
+                        <img src="assets/images/hero-jewellery.png" alt="Review Image" class="review-card__image">
+                    </div>
+                    <div class="review-card__stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <h4 class="review-card__title">"So pretty!"</h4>
+                    <p class="review-card__text">I recently ordered the ‘Golden Radiance Hoops’ from Kilangi, and I’m
+                        absolutely in love! The craftsmanship is stunning, and the shine is just perfect.</p>
+                    <p class="review-card__author-name">~ Harshad Mehta</p>
+                </div>
+            </div>
+
+            <div class="reviews-actions">
+                <a href="#" class="btn btn--primary review-btn">Read More Reviews <i class="ph ph-arrow-right"></i></a>
+            </div>
+
+            <div class="reviews-trust-badges">
+                <div class="trust-badge">
+                    <div class="trust-badge__circle"></div>
+                    <p class="trust-badge__text">aliquam nunc<br>pellentesque urna.</p>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge__circle"></div>
+                    <p class="trust-badge__text">aliquam nunc<br>pellentesque urna.</p>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge__circle"></div>
+                    <p class="trust-badge__text">aliquam nunc<br>pellentesque urna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 14. Gallery / UGC -->
+
+
+    <!-- 15. Footer -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <div class="footer__logo-wrapper">
+                    <!-- Using text for now, but structure allows for image -->
+                    <a href="#" class="footer__logo">KILANGI</a>
+                </div>
+                <p class="footer__desc">Kilangi Jewellery is a premium brand specializing in exquisite silver and gold
+                    jewellery.<br><br>Known for its timeless elegance and fine craftsmanship, Kilangi offers a curated
+                    collection of traditional and contemporary designs perfect for every occasion.</p>
+            </div>
+
+            <div class="footer__links-wrapper">
+                <div class="footer__links">
+                    <h4 class="footer__heading">OUR COLLECTION</h4>
+                    <ul>
+                        <li><a href="#">Rings</a></li>
+                        <li><a href="#">Earrings</a></li>
+                        <li><a href="#">Pendants</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="#">Bangles</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#">All Jewellery</a></li>
+                        <li><a href="#">Gold</a></li>
+                        <li><a href="#">Silver</a></li>
+                        <li><a href="#">Gifting</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">POLICIES</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">FAQ's Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <div class="copyright-bar">
+                <p>© 2025 / Kilangi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
